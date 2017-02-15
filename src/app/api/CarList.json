@@ -1,0 +1,20 @@
+{ "vehicles":[ 
+   {"year":2001,"make":"ACURA","model":"CL", "status" : "Used", "description" : " Acura CL" },
+   {"year":2002,"make":"ACURA","model":"TL", "status" : "Used", "description" : "Acura TL" },
+   {"year":2003,"make":"AMERICAN IRONHORSE","model":"LEGEND", "status" : "New", "description" : "IronHorse Legend" },
+   {"year":2004,"make":"APRILIA","model":"ATLANTIC 500", "status" : "Used", "description" : "Aprilia Atlantic 500" },
+   {"year":2007,"make":"ASTON MARTIN","model":"VANQUISH", "status" : "New", "description" : "Aston Martin Vanquish" },
+   {"year":2002,"make":"ATK","model":"125 CC", "status" : "Used", "description" : "ATK 125cc" },
+   {"year":2012,"make":"BLUE BIRD","model":"WANDERLODGE", "status" : "New", "description" : "Blue Bird WanderLodge" },
+  {"year":2001,"make":"BMW","model":"320I", "status" : "Used", "description" : "BMW 320I" },
+   {"year":2012,"make":"BMW","model":"K1200LTI ICON", "status" : "New", "description" : "BMW k 1200LTI" },
+  {"year":2010,"make":"BMW","model":"K1200RS", "status" : "Used", "description" : "BMW K 1200RS" },
+  {"year":2011,"make":"BUICK","model":"REGAL", "status" : "Used", "description" : "BUICK Regal" },
+  {"year":1901,"make":"CADILLAC","model":"CATERA", "status" : "New", "description" : "Cadilac catera" },
+  {"year":2015,"make":"CHEVROLET","model":"W5500 TILTMASTER", "status" : "Used", "description" : "Chevrolet w5500" },
+  {"year":2014,"make":"CHRYSLER","model":"300M", "status" : "New", "description" : "chrysler 300M" },
+  {"year":2013,"make":"YAMAHA","model":"YZF600R", "status" : "Used", "description" : "Yamaha YZF600R" },
+  {"year":2002,"make":"ACURA","model":"CL", "status" : "New", "description" : "ACURA cl" }
+  ]
+}
+

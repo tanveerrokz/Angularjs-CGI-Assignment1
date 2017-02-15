@@ -1,0 +1,41 @@
+<div style="width: 100%;
+overflow:auto;">
+<div style="float:left; width: 30%; font-size:15px;">
+<table class="table table-striped table-hover table-bordered">
+<thead>
+  
+    <tr >
+      
+      <th (click) = "sortList('make')" ><a href="#">Make</a></th>
+	    <th (click) = "sortList('model')" ><a href="#">Model</a></th>
+			<th (click) = "sortList('year')" ><a href="#">Year</a></th>  
+      <th>Details</th>  
+      
+    </tr>
+  
+</thead>
+<tbody>
+  <tr *ngFor="let item of carListJSON;let count=index"  >
+     <td>{{item.make}}</td> 
+      <td>{{item.model}}</td>
+       <td>{{item.year}}</td>
+      <td><a (click)="clicked(count)">Details</a></td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+
+
+<div style="float:right;width: 55%;">
+     <p>Make:{{dispMake}}</p>
+     <p>Model: {{dispModel}}</p>
+     <p>Year: {{dispYear}}</p>
+    <p>Use Staus: {{dispStatus}}</p>
+   <p>Description: {{dispDescription}}</p>
+  
+   </div>
+
+</div>
+
+
